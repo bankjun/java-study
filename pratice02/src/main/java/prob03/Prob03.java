@@ -14,4 +14,14 @@ public class Prob03 {
 		printCharArray(c);
 	}
 
+	private static void replaceSpace(char[] c) {
+		//하나하나 돌면서 공백이면 콤마로 바꾸면 됨
+		
+	}
+
+	private static void printCharArray(char[] c) {
+		System.out.println(c);
+		
+	}
+
 }

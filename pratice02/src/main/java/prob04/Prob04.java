@@ -10,12 +10,13 @@ public class Prob04 {
 	}
 	
 	public static char[] reverse(String str) {
+		char[] result = str.toCharArray();
+		
 		/* 코드를 완성합니다 */
-		return null;
+		return result;
 	}
 
 	public static void printCharArray(char[] array){
-		/* 코드를 완성합니다 */
 		System.out.println( array );
 	}
 }
