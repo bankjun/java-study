@@ -43,6 +43,7 @@ public class Prob05 {
 			System.out.print("다시하시겠습니까?(y/n)>> ");
 			// char retry = scanner.next().charAt(0);
 			// char retry = scanner.nextLine().charAt(0);
+			
 			String retry = scanner.next();
 			if (retry.equals("n")) {
 				break;
