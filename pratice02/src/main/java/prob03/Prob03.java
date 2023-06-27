@@ -16,7 +16,11 @@ public class Prob03 {
 
 	private static void replaceSpace(char[] c) {
 		//하나하나 돌면서 공백이면 콤마로 바꾸면 됨
-		
+		for(int i = 0; i < c.length; i++) {
+			if(c[i] == ' ') {
+				c[i] = ',';
+			}
+		}
 	}
 
 	private static void printCharArray(char[] c) {
