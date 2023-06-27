@@ -16,4 +16,19 @@ public class ArrayUtil {
 		return null;
 	}
 
+	public static int[] doubleToInt(double[] d2) {
+		int[] result = null;
+		
+		if (d2 == null) {
+			return result;
+		}
+		result = new int[d2.length];
+		for(int i = 0; i < d2.length; i++) {
+			result[i] = (int)d2[i];
+		}
+		return null;
+	}
+	
+	
+
 }

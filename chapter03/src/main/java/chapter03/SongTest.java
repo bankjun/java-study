@@ -13,6 +13,12 @@ public class SongTest {
 		
 		song.show();
 
+		Song song2 = new Song("Love Dive", "IVE", "No", "LoveDive", 1, 2022);
+		song2.show();
+		
+		Song song3 = new Song("사건의 지평선", "윤하");
+		song3.show();
+		
 	}
 
 }
