@@ -4,7 +4,7 @@ public class ColorPoint extends Point {
 	private String color;
 
 	public ColorPoint() {};
-	
+	// 생성자 오버로딩
 	public ColorPoint(int x, int y, String color) {
 //		this.x = x;
 //		this.y = y;
