@@ -5,6 +5,7 @@ public class Point {
 	private int y;
 	
 	public Point() {};
+	
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
@@ -33,9 +34,11 @@ public class Point {
 	
 	public void show(boolean visible) {
 		if(visible) {
-			show();	//*****다형성*****
+			show();	// *****다형성*****
 		}else {
 			System.out.println("점 [x=" + x + ", y=" + y + "]을 지웠습니다.");
 		}
 	}
+	
+	
 }
