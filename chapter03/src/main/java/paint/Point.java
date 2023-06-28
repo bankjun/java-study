@@ -27,4 +27,15 @@ public class Point {
 		System.out.println("점 [x=" + x + ", y=" + y + "]을 그렸습니다.");
 	}
 	
+//	public void disappear() {
+//		System.out.println("점 [x=" + x + ", y=" + y + "]을 지웠습니다.");
+//	}
+	
+	public void show(boolean visible) {
+		if(visible) {
+			show();	//*****다형성*****
+		}else {
+			System.out.println("점 [x=" + x + ", y=" + y + "]을 지웠습니다.");
+		}
+	}
 }

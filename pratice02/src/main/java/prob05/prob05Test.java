@@ -8,11 +8,15 @@ public class prob05Test {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println();
-		char retry = sc.next().charAt(0);
+		System.out.print("문자열 하나 입력받기(y/n): ");
+		char comp1 = sc.next().charAt(0);
+		if(comp1 == 'y') {
+			System.out.println(".next() 메소드로 문자입력을 받아 비교연산자로 문자를 비교해 같으면 출력되는 메시지");
+		}
 		
+		System.out.print("문자열 하나 입력받기(y/n): ");
 		
-		// char retry = scanner.nextLine().charAt(0);
+		char retry = sc.nextLine().charAt(0);
 		
 		String comp = sc.next();
 		if (comp.equals("n")) {
