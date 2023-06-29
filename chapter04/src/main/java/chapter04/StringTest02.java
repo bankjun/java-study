@@ -13,7 +13,7 @@ public class StringTest02 {
 		System.out.println(s1);	// s1이 변하는 것이 아니라, 새로운 객체를 만들고 그것을 return하는 것
 		
 		String s4 = s2.concat("??"); // s2객체 + ??객체(임시생성) -> s2?? 객체만들고 s4가 참조
-		String s5 = "!".concat(s2).concat("@"); //
+		String s5 = "!".concat(s2).concat("@"); // 
 		
 		System.out.println(s1);
 		System.out.println(s2);
@@ -27,7 +27,7 @@ public class StringTest02 {
 		System.out.println(equalsHello(s6));
 	}
 	public static boolean equalsHello(String s) {
-		//return s.equals("Hello");
-		return "Hello".equals(s);
+		//return s.equals("Hello"); -> 이거는 null값이 들어왔을때 오류뜸
+		return "Hello".equals(s);	// 이거는 null값이 들어와도 오류가 아니라 False가 뜸 왜지
 	}
 }
