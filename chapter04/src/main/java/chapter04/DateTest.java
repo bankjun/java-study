@@ -6,6 +6,8 @@ import java.util.Date;
 public class DateTest {
 
 	public static void main(String[] args) {
+
+		// 지금 시간!!
 		Date now = new Date();
 		printDate01(now);
 		printDate02(now);
