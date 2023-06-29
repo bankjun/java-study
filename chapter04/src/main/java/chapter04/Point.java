@@ -1,5 +1,7 @@
 package chapter04;
 
+import java.util.Objects;
+
 public class Point {
 	private int x;
 	private int y;
@@ -8,6 +10,26 @@ public class Point {
 		this.x= x;
 		this.y= y;
 	}
+
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(x, y);	// 내용기반으로 해시코드를 만듦
+	}								// 원래 hashCode()는 주소기반의 해시코드
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)	// 객체가 같으면 당연히 같으니까 T
+			return true;
+		if (obj == null)	// 
+			return false;
+		if (getClass() != obj.getClass()) // 타입이 같은지 확인
+			return false;
+		Point other = (Point) obj;
+		return x == other.x && y == other.y;
+	}
+
 
 	@Override
 	public String toString() {

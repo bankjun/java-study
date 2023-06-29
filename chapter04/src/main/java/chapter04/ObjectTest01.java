@@ -17,7 +17,8 @@ public class ObjectTest01 {
 		
 		System.out.println(p.toString());	/* getClass() + "@" + hashCode() -> 16진수의 해싱값
 											 getClass().getName() + "@" + Integer.toHexString(hashCode()); */
-		System.out.println(p);		//  
+		
+		System.out.println(p);		//  p.toString() 을 넣은 값과 결과가 같음, 
 		
 		
 	}
