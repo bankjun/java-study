@@ -16,7 +16,8 @@ public class DropShip extends Unit{
 	}
 	
 	void unload() {
-		/* 선택된 대상을 내린다.*/ //ㅇㅇㅇㅇ
+		/* 선택된 대상을 내린다.*/
+		// 커밋테스트
 		System.out.println(getUnitName() + "이(가) 선택된 유닛을 내립니다.");
 	}
 }
