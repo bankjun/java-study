@@ -7,21 +7,21 @@ public class UnitTest {
 		c.move(0, 0);
 		c.stop();
 		
-		Marine m = new Marine();
+		Unit m = new Marine();
 		m.move(1, 1);
 		m.stop();
-		m.stimPack();
+		((Marine)m).stimPack();
 		
-		Tank t = new Tank();
+		Unit t = new Tank();
 		t.move(2, 2);
 		t.stop();
-		t.changeMode();
+		((Tank)t).changeMode();
 		
-		DropShip d = new DropShip();
+		Unit d = new DropShip();
 		d.move(3, 3);
 		d.stop();
-		d.load();
-		d.unload();
+		((DropShip)d).load();
+		((DropShip)d).unload();
 		
 	}
 
