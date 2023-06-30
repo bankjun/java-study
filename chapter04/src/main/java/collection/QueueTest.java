@@ -28,6 +28,8 @@ public class QueueTest {
 		
 		// 비어있는 경우 null을 반환한다.
 		System.out.println(q.poll());
+		
+		//커밋테스트444
 	}
 
 }
