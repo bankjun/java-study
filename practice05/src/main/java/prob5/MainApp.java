@@ -8,7 +8,7 @@ public class MainApp {
 			stack.push("Hello");
 			stack.push("World");
 			stack.push("!!!");
-			stack.push("java");
+			stack.push("java"); // TEMP로 더큰 스택만들고 복사~~
 			stack.push(".");
 
 			while (stack.isEmpty() == false) {
@@ -23,7 +23,7 @@ public class MainApp {
 
 			System.out.println(stack.pop());
 			System.out.println(stack.pop());
-			
+			// topD이 0 인데 POP하면 익셉션
 		} catch ( MyStackException ex) {
 			System.out.println( ex );
 		}

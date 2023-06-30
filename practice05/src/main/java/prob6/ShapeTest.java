@@ -9,11 +9,11 @@ public class ShapeTest {
 		List<Shape> list = new ArrayList<Shape>();
 		
 		list.add( new Rectangle(5, 6) );
-		list.add( new RectTriangle( 6, 2) );
+		list.add( new RectTriangle( 6, 2) );//직각삼각형
 		
 		for( Shape shape : list ) {
 			System.out.println( "area:" + shape.getArea() );
-			System.out.println( "perimeter:" + shape.getPerimeter() );
+			System.out.println( "perimeter:" + shape.getPerimeter() );//둘레
 			
 			if( shape instanceof Resizable ) {
 				Resizable resizable = (Resizable) shape;
@@ -24,3 +24,4 @@ public class ShapeTest {
 		}
 	}
 }
+//직각 삼각형 둘레 h + w + Math.sqrt(w*w + h*h)

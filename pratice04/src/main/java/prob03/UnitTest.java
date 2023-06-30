@@ -3,9 +3,6 @@ package prob03;
 public class UnitTest {
 
 	public static void main(String[] args) {
-		Unit c = new Unit();
-		c.move(0, 0);
-		c.stop();
 		
 		Unit m = new Marine();
 		m.move(1, 1);
