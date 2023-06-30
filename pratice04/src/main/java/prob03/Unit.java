@@ -1,6 +1,7 @@
 package prob03;
 
-public class Unit {
+public 
+class Unit {
 	private int x;
 	private int y;
 
@@ -18,4 +19,6 @@ public class Unit {
 		/* 현재 위치에 정지 */
 		System.out.println("현재 위치에 정지합니다.");
 	}
+	
+
 }
