@@ -23,7 +23,7 @@ public class MainApp {
 
 			System.out.println(stack.pop());
 			System.out.println(stack.pop());
-			// topD이 0 인데 POP하면 익셉션
+			// top이 0 인데 POP하면 익셉션
 		} catch ( MyStackException ex) {
 			System.out.println( ex );
 		}
