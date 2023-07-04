@@ -24,4 +24,3 @@ public class ShapeTest {
 		}
 	}
 }
-//직각 삼각형 둘레 h + w + Math.sqrt(w*w + h*h)
