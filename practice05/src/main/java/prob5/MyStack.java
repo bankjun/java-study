@@ -29,7 +29,7 @@ public class MyStack {
 		if(isEmpty()) {
 			System.out.println("prob5.MyStackException: stack is empty");
 		}
-		return buffer[top];
+		return buffer[top--];
 	}
 	
 	public boolean isEmpty() {
