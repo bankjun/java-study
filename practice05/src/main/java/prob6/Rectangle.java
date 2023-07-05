@@ -24,5 +24,5 @@ public class Rectangle extends Shape implements Resizable {
 	double getPerimeter() {
 		return (getWidth()+getHeight()) * 2;
 	}
-
+//커밋테스트
 }
