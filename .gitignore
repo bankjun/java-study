@@ -1,5 +1,5 @@
 ## Mac
-**/ DS_Store
+**/.DS_Store
 
 ## maven
 **/target/
@@ -12,3 +12,12 @@
 **/.project
 **/bin/
 /.DS_Store
+
+## IntelliJ
+**/*.iml
+**/.idea
+
+## personal
+algorithm-test/src/main/java/test01/TestClass01.java
+algorithm-test/src/main/java/test01/TestClassBaek.java
+algorithm-test/src/main/java/test01/YalcoTest.java
